@@ -25,31 +25,64 @@
                             <li><a href="/">Home</a></li>
                          <% } %>
 
-                    <li><a href="recent">News</a></li>
+                         <% if(name == 'news'){ %>
+                            <li class="active"><a href="recent">News</a></li>
+                          <% } else{ %>  
+                            <li><a href="recent">News</a></li>
+                         <% } %>
+                
+                        <% if(name == 'about'){ %>
+                            <li class="active"><a href="about">About</a></li>
+                        <% } else{ %>  
+                            <li><a href="about">About</a></li>
+                        <% } %>
 
-                    <% if(name == 'about'){ %>
-                        <li class="active"><a href="about">About</a></li>
-                      <% } else{ %>  
-                        <li><a href="about">About</a></li>
-                     <% } %>
+                        <% if(name == 'workshops'){ %>
+                            <li class="active"><a href="workshops">Workshops</a></li>
+                        <% } else{ %>  
+                            <li><a href="workshops">Workshops</a></li>
+                        <% } %>
+
+                        <% if(name == 'STEMpower'){ %>
+                            <li class="has-dropdown active">
+                                    <a href="#">STEMpower</a>
+                                    <ul class="dropdown">
+                                            <li><a href="stempower18">STEMpower 2018</a></li>
+                                            <li><a href="stempower17">STEMpower 2017</a></li>
+                                            <li><a href="fuse">Fuse</a></li>
+                                    </ul>
+                        <% } else{ %>  
+                            <li class="has-dropdown">
+                                    <a href="#">STEMpower</a>
+                                    <ul class="dropdown">
+                                            <li><a href="stempower18">STEMpower 2018</a></li>
+                                            <li><a href="stempower17">STEMpower 2017</a></li>
+                                            <li><a href="fuse">Fuse</a></li>
+                                    </ul>
+                        <% } %>
+
+                        <% if(name == 'YouthCompete'){ %>
+                            <li class="has-dropdown active">
+                                    <a href="#">YouthCompete</a>
+                                    <ul class="dropdown">
+                                            <li><a href="ccd">Community Code Day 2018</a></li>
+                                            <li><a href="lwb">Launch Wood Buffalo 2018</a></li>
+                                    </ul>
+                        <% } else{ %>  
+                            <li class="has-dropdown">
+                                    <a href="#">YouthCompete</a>
+                                    <ul class="dropdown">
+                                            <li><a href="ccd">Community Code Day 2018</a></li>
+                                            <li><a href="lwb">Launch Wood Buffalo 2018</a></li>
+                                    </ul>
+                        <% } %>
                     
-
-                    <li><a href="workshops">Workshops</a></li>
-                    <li class="has-dropdown">
-                        <a href="#">STEMpower</a>
-                        <ul class="dropdown">
-                                <li><a href="stempower18.html">STEMpower 2018</a></li>
-                                <li><a href="stempower">STEMpower 2017</a></li>
-                                <li><a href="fuse">Fuse</a></li>
-                        </ul>
-                    <li class="has-dropdown">
-                        <a href="#">YouthCompete</a>
-                        <ul class="dropdown">
-                                <li><a href="ccd">Community Code Day 2018</a></li>
-                                <li><a href="lwb">Launch Wood Buffalo 2018</a></li>
-                        </ul>
-                    <li><a href="madebyouth">MadeByYouth</a></li>
-
+                        <% if(name == 'madebyouth'){ %>
+                            <li class="active"><a href="madebyouth">MadeByYouth</a></li>
+                          <% } else{ %>  
+                            <li><a href="madebyouth">MadeByYouth</a></li>
+                         <% } %>
+                    
                     <% if(name == 'contact'){ %>
                         <li class="active"><a href="contact">Contact</a></li>
                       <% } else{ %>  
