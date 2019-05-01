@@ -45,8 +45,8 @@ app.get('/stempower17', function(request, response) {
 	});
 });
 
-app.get('/fuse', function(request, response) {
-	response.render('pages/fuse', {
+app.get('/fuse17', function(request, response) {
+	response.render('pages/fuse17', {
 		name: 'STEMpower'
 	});
 });
