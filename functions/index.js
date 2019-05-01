@@ -21,8 +21,8 @@ app.get('/about', function(request, response) {
 	});
 });
 
-app.get('/news', function(request, response) {
-	response.render('pages/news', {
+app.get('/recent', function(request, response) {
+	response.render('pages/recent', {
 		name: 'news'
 	});
 });
