@@ -173,7 +173,7 @@
     var owl = $ ('.owl-carousel-carousel');
     owl.owlCarousel ({
       loop: true,
-      margin: 10,      
+      margin: 10,
       dots: true,
       smartSpeed: 800,
       autoHeight: true,
@@ -348,6 +348,7 @@
   };
 
   $ (function () {
+    $('[data-toggle="tooltip"]').tooltip();
     mobileMenuOutsideClick ();
     offcanvasMenu ();
     burgerMenu ();
