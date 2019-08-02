@@ -5,10 +5,13 @@
                 <ul class="">
                     <li><a href="tel:17803810421"><i class="ti-mobile"></i> +1 780 381 0421</a></li>
                     <li><a href="mailto:info@youthcomputing.ca"><i class="icon-mail2"></i></a></li>
-                    <li><a href="http://twitter.com/ycomputing"><i class="ti-twitter-alt"></i> </a></li>				
-                    <li><a href="https://www.facebook.com/youthcomputing3/"><i class="ti-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/youthcomputing"><i class="ti-instagram"></i></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCgL0adj2qZuYtxvfCsoN6TQ"><i class="ti-youtube"></i></a></li>
+                    <li><a href="http://twitter.com/ycomputing" target="_blank"><i class="ti-twitter-alt"></i> </a></li>
+                    <li><a href="https://www.facebook.com/youthcomputing3/" target="_blank"><i
+                                class="ti-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/youthcomputing" target="_blank"><i
+                                class="ti-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCgL0adj2qZuYtxvfCsoN6TQ" target="_blank"><i
+                                class="ti-youtube"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -18,80 +21,80 @@
             </div>
             <div class="col-xs-8.5 text-right menu-1">
                 <ul>
-                        
-                        <% if(name == 'index'){ %>
-                            <li class="active"><a href="/">Home</a></li>
-                          <% } else{ %>  
-                            <li><a href="/">Home</a></li>
-                         <% } %>
 
-                         <% if(name == 'news'){ %>
-                            <li class="active"><a href="recent">News</a></li>
-                          <% } else{ %>  
-                            <li><a href="recent">News</a></li>
-                         <% } %>
-                
-                        <% if(name == 'about'){ %>
-                            <li class="active"><a href="about">About</a></li>
-                        <% } else{ %>  
-                            <li><a href="about">About</a></li>
-                        <% } %>
+                    <% if(name == 'index'){ %>
+                    <li class="active"><a href="/">Home</a></li>
+                    <% } else{ %>
+                    <li><a href="/">Home</a></li>
+                    <% } %>
 
-                        <% if(name == 'workshops'){ %>
-                            <li class="active"><a href="workshops">Workshops</a></li>
-                        <% } else{ %>  
-                            <li><a href="workshops">Workshops</a></li>
-                        <% } %>
+                    <% if(name == 'news'){ %>
+                    <li class="active"><a href="recent">News</a></li>
+                    <% } else{ %>
+                    <li><a href="recent">News</a></li>
+                    <% } %>
 
-                        <% if(name == 'STEMpower'){ %>
-                            <li class="has-dropdown active">
-                                    <a href="#">STEMpower</a>
-                                    <ul class="dropdown">
-                                            <li><a href="stempower18">STEMpower 2018</a></li>
-                                            <li><a href="stempower17">STEMpower 2017</a></li>
-                                            <li><a href="fuse17">Fuse 2017</a></li>
-                                    </ul>
-                        <% } else{ %>  
-                            <li class="has-dropdown">
-                                    <a href="#">STEMpower</a>
-                                    <ul class="dropdown">
-                                            <li><a href="stempower18">STEMpower 2018</a></li>
-                                            <li><a href="stempower17">STEMpower 2017</a></li>
-                                            <li><a href="fuse17">Fuse 2017</a></li>
-                                    </ul>
+                    <% if(name == 'about'){ %>
+                    <li class="active"><a href="about">About</a></li>
+                    <% } else{ %>
+                    <li><a href="about">About</a></li>
+                    <% } %>
+
+                    <% if(name == 'workshops'){ %>
+                    <li class="active"><a href="workshops">Workshops</a></li>
+                    <% } else{ %>
+                    <li><a href="workshops">Workshops</a></li>
+                    <% } %>
+
+                    <% if(name == 'STEMpower'){ %>
+                    <li class="has-dropdown active">
+                        <a href="#">STEMpower</a>
+                        <ul class="dropdown">
+                            <li><a href="stempower18">STEMpower 2018</a></li>
+                            <li><a href="stempower17">STEMpower 2017</a></li>
+                            <li><a href="fuse17">Fuse 2017</a></li>
+                        </ul>
+                        <% } else{ %>
+                    <li class="has-dropdown">
+                        <a href="#">STEMpower</a>
+                        <ul class="dropdown">
+                            <li><a href="stempower18">STEMpower 2018</a></li>
+                            <li><a href="stempower17">STEMpower 2017</a></li>
+                            <li><a href="fuse17">Fuse 2017</a></li>
+                        </ul>
                         <% } %>
 
                         <% if(name == 'YouthCompete'){ %>
-                            <li class="has-dropdown active">
-                                    <a href="#">YouthCompete</a>
-                                    <ul class="dropdown">
-                                            <li><a href="ccd">Community Code Day 2018</a></li>
-                                            <li><a href="lwb">Launch Wood Buffalo 2018</a></li>
-                                    </ul>
-                        <% } else{ %>  
-                            <li class="has-dropdown">
-                                    <a href="#">YouthCompete</a>
-                                    <ul class="dropdown">
-                                            <li><a href="ccd">Community Code Day 2018</a></li>
-                                            <li><a href="lwb">Launch Wood Buffalo 2018</a></li>
-                                    </ul>
+                    <li class="has-dropdown active">
+                        <a href="#">YouthCompete</a>
+                        <ul class="dropdown">
+                            <li><a href="ccd">Community Code Day 2018</a></li>
+                            <li><a href="lwb">Launch Wood Buffalo 2018</a></li>
+                        </ul>
+                        <% } else{ %>
+                    <li class="has-dropdown">
+                        <a href="#">YouthCompete</a>
+                        <ul class="dropdown">
+                            <li><a href="ccd">Community Code Day 2018</a></li>
+                            <li><a href="lwb">Launch Wood Buffalo 2018</a></li>
+                        </ul>
                         <% } %>
-                    
+
                         <% if(name == 'madebyouth'){ %>
-                            <li class="active"><a href="madebyouth">MadeByYouth</a></li>
-                          <% } else{ %>  
-                            <li><a href="madebyouth">MadeByYouth</a></li>
-                         <% } %>
-                    
+                    <li class="active"><a href="madebyouth">MadeByYouth</a></li>
+                    <% } else{ %>
+                    <li><a href="madebyouth">MadeByYouth</a></li>
+                    <% } %>
+
                     <% if(name == 'contact'){ %>
-                        <li class="active"><a href="contact">Contact</a></li>
-                      <% } else{ %>  
-                        <li><a href="contact">Contact</a></li>
-                     <% } %>
-             
+                    <li class="active"><a href="contact">Contact</a></li>
+                    <% } else{ %>
+                    <li><a href="contact">Contact</a></li>
+                    <% } %>
+
                 </ul>
             </div>
         </div>
-        
+
     </div>
 </nav>
