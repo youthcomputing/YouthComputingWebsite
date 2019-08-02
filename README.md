@@ -2,8 +2,9 @@
 
 https://youthcomputing.ca/
 
-Using computer science to empower youth, advocate STEM, provide 
-education and promote innovation throughout Alberta.
+YouthComputing is a non-profit organization committed to sparking a 
+feeling of awe, action, and support in youth by connecting them with the 
+tech world.
 
 ## CREDITS: 
 
