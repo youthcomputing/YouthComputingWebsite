@@ -189,10 +189,10 @@
         },
         600: {
           items: 2,
-          nav: false,
+          nav: true,
         },
         1000: {
-          items: 3,
+          items: 4,
           dots: true,
           loop: false,
         },
@@ -210,9 +210,9 @@
     var owl = $ ('.owl-carousel-fullwidth');
     owl.owlCarousel ({
       loop: true,
-	  margin: 10,
-	  nav: true,
-	  dots: true,
+      margin: 10,
+      nav: true,
+      dots: true,
       smartSpeed: 800,
       autoHeight: true,
       responsiveClass: true,
@@ -226,8 +226,8 @@
           nav: true,
         },
         1000: {
-		  items: 4,
-		  nav: true,
+          items: 4,
+          nav: true,
           dots: true,
           loop: false,
         },
@@ -348,7 +348,6 @@
   };
 
   $ (function () {
-    $('[data-toggle="tooltip"]').tooltip();
     mobileMenuOutsideClick ();
     offcanvasMenu ();
     burgerMenu ();
