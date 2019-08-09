@@ -51,21 +51,9 @@ app.get ('/fuse17', function (request, response) {
   });
 });
 
-app.get ('/ccd', function (request, response) {
-  response.render ('pages/ccd', {
-    name: 'YouthCompete',
-  });
-});
-
-app.get ('/lwb', function (request, response) {
-  response.render ('pages/lwb', {
-    name: 'YouthCompete',
-  });
-});
-
-app.get ('/madebyouth', function (request, response) {
-  response.render ('pages/madebyouth', {
-    name: 'madebyouth',
+app.get ('/junto', function (request, response) {
+  response.render ('pages/junto', {
+    name: 'junto',
   });
 });
 
