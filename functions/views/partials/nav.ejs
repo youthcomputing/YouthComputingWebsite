@@ -1,110 +1,150 @@
 <nav class="gtco-nav" role="navigation">
-    <div class="gtco-container">
-        <div class="row">
-            <div class="col-md-12 text-right gtco-contact">
-                <ul class="">
-                    <li><a href="tel:17803810421"><i class="ti-mobile"></i> +1 780 381 0421</a></li>
-                    <li><a href="mailto:info@youthcomputing.ca"><i class="icon-mail2"></i></a></li>
-                    <li><a href="http://twitter.com/ycomputing" target="_blank"><i class="ti-twitter-alt"></i> </a></li>
-                    <li><a href="https://www.facebook.com/youthcomputing3/" target="_blank"><i
-                                class="ti-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/youthcomputing" target="_blank"><i
-                                class="ti-instagram"></i></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCgL0adj2qZuYtxvfCsoN6TQ" target="_blank"><i
-                                class="ti-youtube"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-xs-12">
-                <div id="gtco-logo"><a href="/">YouthComputing <em>.</em></a></div>
-            </div>
-            <div class="col-xs-8.5 text-right menu-1">
-                <ul>
-
-                    <% if(name == 'index'){ %>
-                    <li class="active"><a href="/">Home</a></li>
-                    <% } else{ %>
-                    <li><a href="/">Home</a></li>
-                    <% } %>
-
-                    <% if(name == 'news'){ %>
-                    <li class="active"><a href="recent">News</a></li>
-                    <% } else{ %>
-                    <li><a href="recent">News</a></li>
-                    <% } %>
-
-                    <% if(name == 'about'){ %>
-                    <li class="active"><a href="about">About</a></li>
-                    <% } else{ %>
-                    <li><a href="about">About</a></li>
-                    <% } %>
-
-                    <% if(name == 'workshops'){ %>
-                    <li class="active"><a href="workshops">Workshops</a></li>
-                    <% } else{ %>
-                    <li><a href="workshops">Workshops</a></li>
-                    <% } %>
-
-                    <% if(name == 'Ignite'){ %>
-                    <li class="has-dropdown active">
-                        <a href="#">Ignite</a>
-                        <ul class="dropdown">
-                            <li><a target="_blank"
-                                    href="https://brainstemalliance.com/2019/07/03/2019-community-code-day-health-and-wellness/">Community
-                                    Code Day 2019</a></li>
-                            <li><a target="_blank"
-                                    href="https://brainstemalliance.com/2018/07/06/community-code-day-arts-and-culture/">Community
-                                    Code Day 2018</a></li>
-                            <li><a target="_blank"
-                                    href="https://brainstemalliance.com/2019/04/07/launch-wood-buffalo-2018/">Launch
-                                    Wood Buffalo 2018</a></li>
-                            <li><a href="stempower19">STEMpower 2019</a></li>
-                            <li><a href="stempower18">STEMpower 2018</a></li>
-                            <li><a href="stempower17">STEMpower 2017</a></li>
-                            <li><a href="fuse19">Fuse 2019</a></li>                            
-                            <li><a href="fuse17">Fuse 2017</a></li>
-                        </ul>
-                        <% } else{ %>
-                    <li class="has-dropdown">
-                        <a href="#">Ignite</a>
-                        <ul class="dropdown">
-                            <li><a target="_blank"
-                                    href="https://brainstemalliance.com/2019/07/03/2019-community-code-day-health-and-wellness/">Community
-                                    Code Day 2019</a></li>
-                            <li><a target="_blank"
-                                    href="https://brainstemalliance.com/2018/07/06/community-code-day-arts-and-culture/">Community
-                                    Code Day 2018</a></li>
-                            <li><a target="_blank"
-                                    href="https://brainstemalliance.com/2019/04/07/launch-wood-buffalo-2018/">Launch
-                                    Wood Buffalo 2018</a></li>
-                            <li><a href="stempower19">STEMpower 2019</a></li>
-                            <li><a href="stempower18">STEMpower 2018</a></li>
-                            <li><a href="stempower17">STEMpower 2017</a></li>
-                            <li><a href="fuse19">Fuse 2019</a></li>
-                            <li><a href="fuse17">Fuse 2017</a></li>
-                        </ul>
-                        <% } %>
-
-                        <% if(name == 'Junto Support'){ %>
-                    <li class="active">
-                        <a href="junto">Junto Support</a>
-                        <% } else{ %>
-                    <li>
-                        <a href="junto">Junto Support</a>
-                        <% } %>
-                        
-
-
-                    <% if(name == 'contact'){ %>
-                    <li class="active"><a href="contact">Contact</a></li>
-                    <% } else{ %>
-                    <li><a href="contact">Contact</a></li>
-                    <% } %>
-
-                </ul>
-            </div>
-        </div>
-
+  <div class="gtco-container">
+    <div class="row">
+      <div class="col-md-12 text-right gtco-contact">
+        <ul class="">
+          <li>
+            <a href="tel:17803810421"
+              ><i class="ti-mobile"></i> +1 780 381 0421</a
+            >
+          </li>
+          <li>
+            <a href="mailto:info@youthcomputing.ca"
+              ><i class="icon-mail2"></i
+            ></a>
+          </li>
+          <li>
+            <a href="http://twitter.com/ycomputing" target="_blank"
+              ><i class="ti-twitter-alt"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/youthcomputing3/" target="_blank"
+              ><i class="ti-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/youthcomputing" target="_blank"
+              ><i class="ti-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCgL0adj2qZuYtxvfCsoN6TQ"
+              target="_blank"
+              ><i class="ti-youtube"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-sm-4 col-xs-12">
+        <div id="gtco-logo">
+          <a href="/">YouthComputing <em>.</em></a>
+        </div>
+      </div>
+      <div class="col-xs-8.5 text-right menu-1">
+        <ul>
+          <% if(name == 'index'){ %>
+          <li class="active"><a href="/">Home</a></li>
+          <% } else{ %>
+          <li><a href="/">Home</a></li>
+          <% } %> <% if(name == 'news'){ %>
+          <li class="active"><a href="recent">News</a></li>
+          <% } else{ %>
+          <li><a href="recent">News</a></li>
+          <% } %> <% if(name == 'about'){ %>
+          <li class="active"><a href="about">About</a></li>
+          <% } else{ %>
+          <li><a href="about">About</a></li>
+          <% } %> <% if(name == 'workshops'){ %>
+          <li class="active"><a href="workshops">Workshops</a></li>
+          <% } else{ %>
+          <li><a href="workshops">Workshops</a></li>
+          <% } %> <% if(name == 'Ignite'){ %>
+          <li class="has-dropdown active">
+            <a href="#">Ignite</a>
+            <ul class="dropdown">
+              <li>
+                <a
+                  target="_blank"
+                  href="https://brainstemalliance.com/2019/07/03/2019-community-code-day-health-and-wellness/"
+                  >Community Code Day 2019</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://brainstemalliance.com/2018/07/06/community-code-day-arts-and-culture/"
+                  >Community Code Day 2018</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://brainstemalliance.com/2019/04/07/launch-wood-buffalo-2018/"
+                  >Launch Wood Buffalo 2018</a
+                >
+              </li>
+              <li><a href="stempower19">STEMpower 2019</a></li>
+              <li><a href="stempower18">STEMpower 2018</a></li>
+              <li><a href="stempower17">STEMpower 2017</a></li>
+              <li><a href="fuse19">Fuse 2019</a></li>
+              <li><a href="fuse17">Fuse 2017</a></li>
+            </ul>
+            <% } else{ %>
+          </li>
+
+          <li class="has-dropdown">
+            <a href="#">Ignite</a>
+            <ul class="dropdown">
+              <li>
+                <a
+                  target="_blank"
+                  href="https://brainstemalliance.com/2019/07/03/2019-community-code-day-health-and-wellness/"
+                  >Community Code Day 2019</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://brainstemalliance.com/2018/07/06/community-code-day-arts-and-culture/"
+                  >Community Code Day 2018</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://brainstemalliance.com/2019/04/07/launch-wood-buffalo-2018/"
+                  >Launch Wood Buffalo 2018</a
+                >
+              </li>
+              <li><a href="stempower19">STEMpower 2019</a></li>
+              <li><a href="stempower18">STEMpower 2018</a></li>
+              <li><a href="stempower17">STEMpower 2017</a></li>
+              <li><a href="fuse19">Fuse 2019</a></li>
+              <li><a href="fuse17">Fuse 2017</a></li>
+            </ul>
+            <% } %> <% if(name == 'Junto Support'){ %>
+          </li>
+
+          <li class="active">
+            <a href="junto">Junto Support</a>
+            <% } else{ %>
+          </li>
+
+          <li>
+            <a href="junto">Junto Support</a>
+            <% } %> <% if(name == 'contact'){ %>
+          </li>
+
+          <li class="active"><a href="contact">Contact</a></li>
+          <% } else{ %>
+          <li><a href="contact">Contact</a></li>
+          <% } %>
+        </ul>
+      </div>
+    </div>
+  </div>
 </nav>
