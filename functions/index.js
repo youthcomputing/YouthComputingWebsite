@@ -32,30 +32,15 @@ app.get("/workshops", function(request, response) {
     name: "workshops"
   });
 });
-app.get("/stempower19", function(request, response) {
-  response.render("pages/stempower19", {
-    name: "STEMpower"
-  });
-});
-app.get("/stempower18", function(request, response) {
-  response.render("pages/stempower18", {
+
+app.get("/stempower", function(request, response) {
+  response.render("pages/stempower", {
     name: "STEMpower"
   });
 });
 
-app.get("/stempower17", function(request, response) {
-  response.render("pages/stempower17", {
-    name: "STEMpower"
-  });
-});
-
-app.get("/fuse17", function(request, response) {
-  response.render("pages/fuse17", {
-    name: "fuse"
-  });
-});
-app.get("/fuse19", function(request, response) {
-  response.render("pages/fuse19", {
+app.get("/fuse", function(request, response) {
+  response.render("pages/fuse", {
     name: "fuse"
   });
 });
