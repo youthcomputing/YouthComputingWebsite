@@ -39,9 +39,39 @@ app.get("/stempower", function(request, response) {
   });
 });
 
+app.get("/stempower18", function(request, response) {
+  response.render("pages/stempower18", {
+    name: "STEMpower 2018"
+  });
+});
+
+app.get("/stempower19", function(request, response) {
+  response.render("pages/stempower19", {
+    name: "STEMpower 2019"
+  });
+});
+
 app.get("/fuse", function(request, response) {
   response.render("pages/fuse", {
     name: "fuse"
+  });
+});
+
+app.get("/fuse19", function(request, response) {
+  response.render("pages/fuse19", {
+    name: "fuse 2019"
+  });
+});
+
+app.get("/ccd", function(request, response) {
+  response.render("pages/ccd", {
+    name: "CCD"
+  });
+});
+
+app.get("/lwb", function(request, response) {
+  response.render("pages/lwb", {
+    name: "LWB"
   });
 });
 app.get("/junto", function(request, response) {
