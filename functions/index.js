@@ -39,6 +39,12 @@ app.get("/stempower", function(request, response) {
   });
 });
 
+app.get("/stempower17", function(request, response) {
+  response.render("pages/stempower17", {
+    name: "STEMpower17"
+  });
+});
+
 app.get("/stempower18", function(request, response) {
   response.render("pages/stempower18", {
     name: "STEMpower 2018"
@@ -54,6 +60,12 @@ app.get("/stempower19", function(request, response) {
 app.get("/fuse", function(request, response) {
   response.render("pages/fuse", {
     name: "fuse"
+  });
+});
+
+app.get("/fuse17", function(request, response) {
+  response.render("pages/fuse17", {
+    name: "fuse17"
   });
 });
 
