@@ -71,7 +71,7 @@ app.get("/fuse17", function(request, response) {
 
 app.get("/fuse19", function(request, response) {
   response.render("pages/fuse19", {
-    name: "fuse 2019"
+    name: "fuse19"
   });
 });
 
