@@ -47,13 +47,13 @@ app.get("/stempower17", function(request, response) {
 
 app.get("/stempower18", function(request, response) {
   response.render("pages/stempower18", {
-    name: "STEMpower 2018"
+    name: "STEMpower18"
   });
 });
 
 app.get("/stempower19", function(request, response) {
   response.render("pages/stempower19", {
-    name: "STEMpower 2019"
+    name: "STEMpower19"
   });
 });
 
