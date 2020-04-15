@@ -1,6 +1,6 @@
 .firebase/
 .firebaserc
-
+.vscode
 # IDEA Ignores #
 ################
 *.iml
@@ -55,7 +55,6 @@ Thumbs.db
 .svn
 .svn/
 CVS
-
 # XCode 4 #
 ###########
 *.xcuserstate
