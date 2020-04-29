@@ -104,4 +104,10 @@ app.get ('/workshops/slides/dhruv-product', function (request, response) {
   );
 });
 
+app.get ('/workshops/slides/dhvani-api', function (request, response) {
+  response.redirect (
+    'https://docs.google.com/presentation/d/1x8ectrWsf0H1GSnm3dMKnkcuA0UPh9-jzRlM_-MakvI/edit?usp=sharing'
+  );
+});
+
 exports.app = functions.https.onRequest (app);
