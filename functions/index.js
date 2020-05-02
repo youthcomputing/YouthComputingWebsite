@@ -110,4 +110,10 @@ app.get ('/workshops/slides/dhvani-api', function (request, response) {
   );
 });
 
+app.get ('/workshops/slides/dhruv-retool', function (request, response) {
+  response.redirect (
+    'https://docs.google.com/presentation/d/1ey_m1c9fOlp-tStaZHn-VG_YKV5RDJHD6pI3PUVbrHY/edit?usp=sharing'
+  );
+});
+
 exports.app = functions.https.onRequest (app);
