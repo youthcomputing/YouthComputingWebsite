@@ -1,6 +1,6 @@
 {
     "editor.formatOnSave": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "vscode_custom_css.imports": [
         "file:///C:/Users/Krish/.vscode/extensions/robbowen.synthwave-vscode-0.0.7/synthwave84.css"
     ],
