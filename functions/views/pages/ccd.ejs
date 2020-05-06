@@ -5,82 +5,90 @@
 	URL: http://gettemplates.co
 -->
 <html>
-	<head>
-            <% include ../partials/head %>    
-	</head>
-	<body>
+
+<head>
+	<% include ../partials/head %>
+</head>
+
+<body>
 
 	<div class="gtco-loader"></div>
 
 	<div id="page">
-            <% include ../partials/nav %>
+		<% include ../partials/nav %>
 
-	<header id="gtco-header about" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
-        <style>
-		
-            .round {
-              display: round;
-              width: 30%;
-              border: none;
-              background-color: rgba(38, 0, 255, 0.938);
-              color: white;
-              padding: 14px 28px;
-              font-size: 16px;
-              cursor: pointer;
-              text-align: center;
-            }
-            
-            .round:hover {
-              background-color: #ddd;
-              color: green;
-            }
-            </style>        
-        <div class="overlay"></div>
-		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc">
-							<h1 class="animate-box" data-animate-effect="fadeInUp">Community Code Day</h1>
-							<h2 class="animate-box" data-animate-effect="fadeInUp">Community Code Day is Fort McMurray's first annual community technology conference. People can participate in a hackathon, and/or they can choose from a selection of speakers and workshops to learn how to use technology as a beneficial factor in their endeavors.</h2>
+		<header id="gtco-header about" class="gtco-cover gtco-cover-xs" role="banner"
+			style="background-image:url(images/img_bg_1.jpg);">
+			<style>
+				.round {
+					display: round;
+					width: 30%;
+					border: none;
+					background-color: rgba(38, 0, 255, 0.938);
+					color: white;
+					padding: 14px 28px;
+					font-size: 16px;
+					cursor: pointer;
+					text-align: center;
+				}
+
+				.round:hover {
+					background-color: #ddd;
+					color: green;
+				}
+			</style>
+			<div class="overlay"></div>
+			<div class="gtco-container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="display-t">
+							<div class="display-tc">
+								<h1 class="animate-box" data-animate-effect="fadeInUp">Community Code Day</h1>
+								<h2 class="animate-box" data-animate-effect="fadeInUp">Community Code Day is Fort
+									McMurray's first annual community technology conference. People can participate in a
+									hackathon, and/or they can choose from a selection of speakers and workshops to
+									learn how to use technology as a beneficial factor in their endeavors.</h2>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</header>
-	<div id="gtco-history" class="gtco-section border-bottom animate-box">
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-			<h1></h1>
-			<div class="col-md-12">
-				<h3>Below is a Participant from CCD 2019</h3>
+		</header>
+		<div id="gtco-history" class="gtco-section border-bottom animate-box">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<h1></h1>
+					<div class="col-md-12">
+						<h3>Below is a Participant from CCD 2019</h3>
+					</div>
+
+
+					<div class="item">
+						<img src="images/CCD5.jpg" width="100%" alt="Booths">
+					</div>
+					<p></p>
+					<p></p>
+					<p> <a href="https://brainstemalliance.com/2019/07/03/2019-community-code-day-health-and-wellness/"
+							class="round">More Pictures From CCD 2019</a> </p>
+					<p></p>
+				</div>
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<div class="col-md-12">
+						<h3>This is a Keynote Speaker at CCD 2018</h3>
+					</div>
+					<div class="item">
+						<img src="images/CCD1.jpg" width="100%" alt="Booths">
+					</div>
+					<p></p>
+					<p></p>
+					<p> <a href="https://brainstemalliance.com/2018/07/06/community-code-day-arts-and-culture/"
+							class="round">More Pictures From CCD 2018</a> </p>
+				</div>
 			</div>
 
-			
-				<div class="item">
-					<img src="images/CCD5.jpg" width="100%" alt="Booths">
-				</div>
-				<p></p>
-				<p></p>
-				<p> <a href="https://brainstemalliance.com/2019/07/03/2019-community-code-day-health-and-wellness/" class="round">More Pictures From CCD 2019</a> </p>
-				<p></p>
-		</div>
-		<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-				<div class="col-md-12">
-					<h3>This is a Keynote Speaker at CCD 2018</h3>
-				</div>
-				<div class="item">
-					<img src="images/CCD1.jpg" width="100%" alt="Booths">
-				</div>
-				<p></p>
-				<p></p>
-				<p> <a href="https://brainstemalliance.com/2018/07/06/community-code-day-arts-and-culture/" class="round">More Pictures From CCD 2018</a> </p>
-		</div>
-	</div>		
-
-    <% include ../partials/footer %>
+			<% include ../partials/footer %>
 
 
-	</body>
+</body>
+
 </html>

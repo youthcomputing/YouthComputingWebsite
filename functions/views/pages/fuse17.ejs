@@ -5,84 +5,88 @@
 	URL: http://gettemplates.co
 -->
 <html>
-	<head>
-            <% include ../partials/head %>  
-	</head>
-	<body>
-		
-	<div class="gtco-loader"></div>
-	
-	<div id="page">
-            <% include ../partials/nav %>
 
-	<header id="gtco-header about" class="gtco-cover gtco-cover-xs" role="banner" style="background-image:url(images/img_bg_1.jpg);">
-		<style>
-		
-			.round {
-			  display: round;
-			  width: 30%;
-			  border: none;
-              background-color: rgba(38, 0, 255, 0.938);
-			  color: white;
-			  padding: 14px 28px;
-			  font-size: 16px;
-			  cursor: pointer;
-			  text-align: center;
-			}
-			
-			.round:hover {
-			  background-color: #ddd;
-			  color: green;
-			}
+<head>
+	<% include ../partials/head %>
+</head>
+
+<body>
+
+	<div class="gtco-loader"></div>
+
+	<div id="page">
+		<% include ../partials/nav %>
+
+		<header id="gtco-header about" class="gtco-cover gtco-cover-xs" role="banner"
+			style="background-image:url(images/img_bg_1.jpg);">
+			<style>
+				.round {
+					display: round;
+					width: 30%;
+					border: none;
+					background-color: rgba(38, 0, 255, 0.938);
+					color: white;
+					padding: 14px 28px;
+					font-size: 16px;
+					cursor: pointer;
+					text-align: center;
+				}
+
+				.round:hover {
+					background-color: #ddd;
+					color: green;
+				}
 			</style>
-		<div class="overlay"></div>
-		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc">
-							<h1 class="animate-box" data-animate-effect="fadeInUp">Fuse 2017</h1>
+			<div class="overlay"></div>
+			<div class="gtco-container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="display-t">
+							<div class="display-tc">
+								<h1 class="animate-box" data-animate-effect="fadeInUp">Fuse 2017</h1>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</header>
+		</header>
 
-<div id="gtco-history" class="gtco-section border-bottom animate-box">
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-			<h1></h1>
-			<div class="col-md-12">
-				<h2>Fuse 2017</h2>
-				<p>YouthComputing hosted Fuse 2017 at</p> 
-				<p>Westwood Community High School on November 25. </p>
-			</div>
-		</div>
-
-		<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-			<h3>Information about the Different Booths:</h3>
-			
-				<div class="item">
-					<img src="images/fuse_1.png" width="100%" alt="Booths">
+		<div id="gtco-history" class="gtco-section border-bottom animate-box">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<h1></h1>
+					<div class="col-md-12">
+						<h2>Fuse 2017</h2>
+						<p>YouthComputing hosted Fuse 2017 at</p>
+						<p>Westwood Community High School on November 25. </p>
+					</div>
 				</div>
-				<p></p>
-				<p></p>
-				<h3>Pictures from the event: </h3>
-				<p> <a href="https://woodbuffalo.snapd.com/events/view/1104996" class="round">More Pictures From Fuse 2017</a></p>
-				<p> <a href="https://www.dropbox.com/sh/94n5qcy9r6pcxum/AAAH7fc36wikvLBEzGBa4FdAa?dl=0" class="round">More Pictures From Fuse 2017</a></p>
-				<p></p>
-		</div>
-	</div>
-	
 
-	
-			
-			
-		
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<h3>Information about the Different Booths:</h3>
 
-    <% include ../partials/footer %>
+					<div class="item">
+						<img src="images/fuse_1.png" width="100%" alt="Booths">
+					</div>
+					<p></p>
+					<p></p>
+					<h3>Pictures from the event: </h3>
+					<p> <a href="https://woodbuffalo.snapd.com/events/view/1104996" class="round">More Pictures From
+							Fuse 2017</a></p>
+					<p> <a href="https://www.dropbox.com/sh/94n5qcy9r6pcxum/AAAH7fc36wikvLBEzGBa4FdAa?dl=0"
+							class="round">More Pictures From Fuse 2017</a></p>
+					<p></p>
+				</div>
+			</div>
 
-	</body>
+
+
+
+
+
+
+			<% include ../partials/footer %>
+
+</body>
+
 </html>
-

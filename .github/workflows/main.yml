@@ -39,4 +39,4 @@ jobs:
           eslint_dir: functions/
           prettier: true
           prettier_dir: functions/
-          prettier_extensions: css,html,js,json,ejs,jsx,md,sass,scss,ts,tsx,vue,yaml,yml,
+          prettier_extensions: css,html,js,json,jsx,md,sass,scss,ts,tsx,vue,yaml,yml,
