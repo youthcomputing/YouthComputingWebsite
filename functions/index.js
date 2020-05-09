@@ -116,4 +116,12 @@ app.get("/workshops/slides/dhruv-retool", function (request, response) {
   );
 });
 
+app.get("/workshops/slides/krish-scripts", function (request, response) {
+  response.redirect(
+    "https://docs.google.com/presentation/d/1qxugXKdI81jOR5uo2t9QxZLxNTpo9YwRZ-A4FoOOiu8/edit?usp=sharing"
+  );
+});
+
+
+
 exports.app = functions.https.onRequest(app);
