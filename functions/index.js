@@ -122,6 +122,4 @@ app.get("/workshops/slides/krish-scripts", function (request, response) {
   );
 });
 
-
-
 exports.app = functions.https.onRequest(app);
