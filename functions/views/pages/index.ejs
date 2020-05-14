@@ -401,9 +401,12 @@
 						</ul>
 					</div>
 				</div>
-
 				<div class="row">
-					<div class="col-md-4 col-md-offset-4 text-center animate-box">
+					<div class="col-sm-6 text-center animate-box">
+						<input type="button" id="show-more-button" class="btn btn-white btn-outline btn-lg btn-block" 
+						value="Show More"/>
+					</div>
+					<div class="col-sm-6 text-center animate-box">
 						<a href="about" class="btn btn-white btn-outline btn-lg btn-block">More About Us</a>
 					</div>
 				</div>
@@ -648,6 +651,21 @@
 		</div>
 
 		<% include ../partials/footer %>
+		<script>
+			$('#gtco-portfolio-list li').hide();
+					$('#gtco-portfolio-list li').slice(0, 5).show();
+			$('#show-more-button').on('click', function(e) {
+				e.preventDefault();
+				this.more = !this.more
+				if(this.more) $('#gtco-portfolio-list li').show();
+				else {
+					$('#gtco-portfolio-list li').hide();
+					$('#gtco-portfolio-list li').slice(0, 5).show();
+				}
+
+				$(this).attr('value', this.more ? 'Show Less' : 'Show More');
+			})
+		</script>
 
 </body>
 
