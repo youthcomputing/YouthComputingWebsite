@@ -9,47 +9,72 @@
 
 <url>
   <loc>https://youthcomputing.ca/</loc>
-  <lastmod>2019-08-09T13:58:33+00:00</lastmod>
+  <lastmod>2020-06-25T06:28:59+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://youthcomputing.ca/recent</loc>
-  <lastmod>2019-08-09T13:58:33+00:00</lastmod>
+  <lastmod>2020-06-25T06:28:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://youthcomputing.ca/about</loc>
-  <lastmod>2019-08-09T13:58:33+00:00</lastmod>
+  <lastmod>2020-06-25T06:28:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://youthcomputing.ca/workshops</loc>
-  <lastmod>2019-08-09T13:58:33+00:00</lastmod>
+  <lastmod>2020-06-25T06:28:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://youthcomputing.ca/stempower18</loc>
-  <lastmod>2019-08-09T13:58:33+00:00</lastmod>
+  <loc>https://youthcomputing.ca/stempower</loc>
+  <lastmod>2020-06-25T06:28:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://youthcomputing.ca/stempower17</loc>
-  <lastmod>2019-08-09T13:58:33+00:00</lastmod>
+  <loc>https://youthcomputing.ca/fuse</loc>
+  <lastmod>2020-06-25T06:28:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://youthcomputing.ca/fuse17</loc>
-  <lastmod>2019-08-09T13:58:33+00:00</lastmod>
+  <loc>https://youthcomputing.ca/ccd</loc>
+  <lastmod>2020-06-25T06:28:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://youthcomputing.ca/lwb</loc>
+  <lastmod>2020-06-25T06:28:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://youthcomputing.ca/junto</loc>
-  <lastmod>2019-08-09T13:58:33+00:00</lastmod>
+  <lastmod>2020-06-25T06:28:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://youthcomputing.ca/contact</loc>
-  <lastmod>2019-08-09T13:58:33+00:00</lastmod>
+  <lastmod>2020-06-25T06:28:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://youthcomputing.ca/challenges/challenge_1.pdf</loc>
+  <lastmod>2020-06-25T06:27:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://youthcomputing.ca/stempower19</loc>
+  <lastmod>2020-06-25T06:28:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://youthcomputing.ca/stempower18</loc>
+  <lastmod>2020-06-25T06:28:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://youthcomputing.ca/stempower17</loc>
+  <lastmod>2020-06-25T06:28:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
