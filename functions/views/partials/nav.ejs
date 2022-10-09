@@ -45,6 +45,10 @@
           <% } %> <% if(name == 'workshops'){ %>
           <li class="active"><a href="workshops">Workshops</a></li>
           <% } else{ %>
+            <% } %> <% if(name == 'compete'){ %>
+              <li class="active"><a href="compete">Youth Compete</a></li>
+              <% } else{ %>
+              <li><a href="compete">Youth Compete</a></li>
           <li><a href="workshops">Workshops</a></li>
           <% } %> <% if(name == 'Ignite'){ %>
           <li class="has-dropdown active">
@@ -58,6 +62,12 @@
               <li>
                 <a href="lwb">Launch Wood Buffalo</a>
               </li>
+              <li>
+                <a href="compete">Youth Compete</a>
+              </li>
+              
+
+              
 
             </ul>
             <% } else{ %>
@@ -73,6 +83,9 @@
               </li>
               <li>
                 <a href="lwb">Launch Wood Buffalo</a>
+              </li>
+              <li>
+                <a href="compete">Youth Compete</a>
               </li>
 
 

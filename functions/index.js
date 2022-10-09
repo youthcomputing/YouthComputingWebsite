@@ -21,6 +21,12 @@ app.get ('/about', function (request, response) {
   });
 });
 
+app.get ('/compete', function (request, response) {
+  response.render ('pages/compete', {
+    name: 'compete',
+  });
+});
+
 app.get ('/recent', function (request, response) {
   response.render ('pages/recent', {
     name: 'news',
